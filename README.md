@@ -26,6 +26,8 @@ cd Login_system/server/
 npm start
 ```
 
+link to your database on local
+
 start LiveServer
 
 ```
