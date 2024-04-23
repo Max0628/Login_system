@@ -19,6 +19,18 @@ install package
 npm install
 ```
 
+link to your database on local
+
+```
+edit your .env to link your local database
+```
+
+generate prisma client
+
+```
+npx prisma generate
+```
+
 start server
 
 ```
@@ -26,17 +38,23 @@ cd Login_system/server/
 npm start
 ```
 
-link to your database on local
-
-start LiveServer
-
-```
-cd Login_system/client/src/public/login.html/
-start life server
-```
-
 check the API-docs
 
 ```
 http://localhost:8080/api-docs/
+```
+
+# How to use this project?
+
+go to register page,add a new account.
+
+```
+http://localhost:8080/page/register.html
+
+```
+
+go to login page,after login, check your dev tool that if cookie contain jwt.
+
+```
+http://localhost:8080/page/login.html
 ```
